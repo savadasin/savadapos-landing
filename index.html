@@ -1,11 +1,14 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Savada POS – Smart Cloud POS System</title>
+<title>Savada POS – Smart Cloud POS</title>
 
 <style>
+
 body{
 font-family: Arial, sans-serif;
 margin:0;
@@ -16,8 +19,9 @@ color:white;
 header{
 display:flex;
 justify-content:space-between;
-padding:20px 60px;
 align-items:center;
+padding:20px 60px;
+background:#020617;
 }
 
 .logo{
@@ -29,6 +33,7 @@ nav a{
 margin-left:20px;
 color:white;
 text-decoration:none;
+font-size:14px;
 }
 
 .hero{
@@ -43,7 +48,7 @@ margin-bottom:20px;
 
 .hero p{
 font-size:20px;
-opacity:0.8;
+opacity:0.85;
 }
 
 .btn{
@@ -53,6 +58,7 @@ background:#3b82f6;
 border:none;
 border-radius:6px;
 font-size:16px;
+color:white;
 cursor:pointer;
 }
 
@@ -75,54 +81,91 @@ padding:30px;
 border-radius:10px;
 }
 
+.screenshot img{
+max-width:900px;
+width:100%;
+border-radius:12px;
+margin-top:40px;
+}
+
+input{
+padding:12px;
+width:260px;
+border-radius:6px;
+border:none;
+margin-right:10px;
+}
+
 footer{
 text-align:center;
 padding:40px;
 background:#020617;
+font-size:14px;
+opacity:0.7;
 }
+
 </style>
+
 </head>
 
 <body>
 
 <header>
 <div class="logo">Savada POS</div>
+
 <nav>
-<a href="#">Features</a>
-<a href="#">Pricing</a>
-<a href="#">Contact</a>
+<a href="#features">Features</a>
+<a href="#technology">Technology</a>
+<a href="#waitlist">Early Access</a>
 </nav>
 </header>
 
 <section class="hero">
 <h1>Modern Cloud POS for Restaurants & Retail</h1>
-<p>Run your stores with a powerful, fast, and reliable POS system built for the modern business.</p>
+
+<p>
+Run your stores with a powerful POS platform built for speed,
+reliability, and real-time analytics.
+</p>
+
+<a href="#waitlist">
 <button class="btn">Join Early Access</button>
+</a>
+
 </section>
 
-<section class="section">
-<h2>Why Savada POS?</h2>
+<section id="features" class="section">
+
+<h2>Why Choose Savada POS</h2>
 
 <div class="features">
 
 <div class="feature">
 <h3>Multi-Store Management</h3>
-<p>Manage unlimited stores, staff, and sales from a single cloud dashboard.</p>
+<p>
+Manage unlimited stores, staff, and inventory from one cloud dashboard.
+</p>
 </div>
 
 <div class="feature">
 <h3>Lightning Fast POS</h3>
-<p>Flutter-based POS app designed for speed, reliability, and offline support.</p>
+<p>
+Flutter-powered POS app designed for speed and offline reliability.
+</p>
 </div>
 
 <div class="feature">
 <h3>Smart Kitchen Printing</h3>
-<p>Automatic printer routing for kitchens, bars, and receipt printers.</p>
+<p>
+Automatic printer routing for kitchens, bars, and receipts.
+</p>
 </div>
 
 <div class="feature">
 <h3>Real-Time Analytics</h3>
-<p>Track sales, revenue, and inventory instantly from any device.</p>
+<p>
+Monitor revenue, orders, and inventory instantly.
+</p>
 </div>
 
 </div>
@@ -130,19 +173,94 @@ background:#020617;
 </section>
 
 <section class="section">
-<h2>Built for Modern Businesses</h2>
-<p>Perfect for restaurants, cafes, supermarkets, and retail chains.</p>
+
+<h2>See Savada POS in Action</h2>
+
+<div class="screenshot">
+
+<img src="https://dummyimage.com/900x500/1f2937/ffffff&text=Savada+POS+Dashboard+Preview">
+
+</div>
+
+<p style="margin-top:30px;opacity:0.8;">
+Powerful POS dashboard with sales analytics, inventory tracking,
+and store management.
+</p>
+
 </section>
 
-<section class="section">
-<h2>Get Early Access</h2>
-<p>We are currently onboarding early partners.</p>
-<p>Email: contact@savadapos.com</p>
+<section id="technology" class="section">
+
+<h2>Built With Modern Technology</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>Flutter POS App</h3>
+<p>
+Cross-platform POS application built with Flutter
+for Windows, Android, and tablets.
+</p>
+</div>
+
+<div class="feature">
+<h3>ASP.NET Core Backend</h3>
+<p>
+Enterprise-grade backend for secure and scalable APIs.
+</p>
+</div>
+
+<div class="feature">
+<h3>SQL Server Database</h3>
+<p>
+High-performance transactional database for retail workloads.
+</p>
+</div>
+
+<div class="feature">
+<h3>Cloud Ready</h3>
+<p>
+Designed for scalable multi-tenant cloud infrastructure.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="waitlist" class="section">
+
+<h2>Join the Early Access Program</h2>
+
+<p>
+We are currently inviting restaurants and retailers
+to try Savada POS.
+</p>
+
+<form style="margin-top:30px">
+
+<input
+type="email"
+placeholder="Enter your email"
+required>
+
+<button class="btn">Request Access</button>
+
+</form>
+
+<p style="margin-top:20px;font-size:14px;opacity:0.7;">
+We will notify you when Savada POS launches.
+</p>
+
 </section>
 
 <footer>
-© 2026 Savada POS. All rights reserved.
+
+© 2026 Savada POS  
+Cloud POS platform for restaurants and retail businesses.
+
 </footer>
 
 </body>
 </html>
+```
